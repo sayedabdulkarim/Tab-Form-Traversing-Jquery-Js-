@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabbed Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form name="myForm" onsubmit="return validateForm()">
+    <ul>
+      <li class="title">Who are You?</li>
+      <li class="fields">
+        <label>First Name :- </label>
+        <br>
+        <input type="text" id="firstname" class="req">
+        <br>
+        <label>Middle Name :- </label>
+        <br>
+        <input type="text" id="middlename">
+        <br>
+        <label>Last Name :- </label>
+        <br>
+        <input type="text" id="lastname">
+        <br>
+        <label>Email :- </label>
+        <br>
+        <input type="email" id="email" class="req">
+        <br>
+      </li>
+      <li class="title">Where are You?</li>
+      <li class="fields">
+        <label>City :-</label>
+        <br>
+        <input type="text" id="city">
+        <br>
+        <label>State :-</label>
+        <br>
+        <input type="text" id="state" class="req">
+        <br>
+        <label>Country :-</label>
+        <br>
+        <input type="text" id="country">
+        <br>
+      </li>
+      <li class="title">What do you do?</li>
+      <li class="fields">
+        <label>Occupation :-</label>
+        <br>
+        <input type="text" id="occupation" class="req">
+        <br>
+        <label>Company :-</label>
+        <br>
+        <input type="text" id="company">
+        <br>
+        <label>Company Location :-</label>
+        <br>
+        <input type="text" id="location">
+        <br>
+      </li>
+    </ul>
+    <input type="submit" value="Submit Form" class="SUB">
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
